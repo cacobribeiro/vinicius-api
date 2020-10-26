@@ -9,7 +9,7 @@ class ISSLocation extends Component {
   componentDidMount() {
     const { getCurrentISSLocation } = this.props;
 
-    this.timer = setInterval(getCurrentISSLocation, 500);
+    this.timer = setInterval(getCurrentISSLocation, 2000);
   }
 
   componentWillMount() {
