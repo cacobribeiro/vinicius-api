@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vinicius-api/precache-manifest.bc80d9136359bd539e11f1e560106b85.js"
+  "/vinicius-api/precache-manifest.2524100a01692b560d4e324bba72f237.js"
 );
 
 self.addEventListener('message', (event) => {
